@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm sinh viên"
+        android:drawableLeft="@drawable/ic_action_task"
+        android:padding="10px"
+        android:textSize="20sp"
+        android:textColor="@color/purple_700"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập MSSV"
+        android:drawableLeft="@drawable/ic_action_typing"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/edtMSSV"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:id="@+id/edtHoten"
+        android:drawableLeft="@drawable/ic_action_typing"
+        android:hint="Nhập họ và tên"
+        tools:ignore="TouchTargetSizeCheck" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:id="@+id/edtEmail"
+        android:drawableLeft="@drawable/ic_action_typing"
+        android:hint="Nhập email"
+        tools:ignore="TouchTargetSizeCheck" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:id="@+id/edtDate"
+        android:drawableLeft="@drawable/ic_action_typing"
+        android:hint="Nhập Ngày sinh"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+
+            android:layout_marginLeft="70dp"
+            android:id="@+id/btnThem"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+
+            android:layout_marginLeft="70dp"
+            android:id="@+id/btnHuy"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
